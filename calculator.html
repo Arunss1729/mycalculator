@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my calculator
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main body">
+    <div id="calc">
+        <div id="out put">
+            <input type="text" id="screen">
+        </div>
+        <div id="buttons">
+            <button onclick="bclear()" id="button">clear</button>
+            <div class="row">
+                <button onclick="bclick(7)" id="button">7</button>
+                <button onclick="bclick(8)" id="button">8</button>
+                <button onclick="bclick(9)" id="button">9</button>
+                <button onclick="bclick('/')" id="button">/</button>
+            </div>
+            <div class="row">
+                <button onclick="bclick(4)" id="button">4</button>
+                <button onclick="bclick(5)" id="button">5</button>
+                <button onclick="bclick(6)" id="button">6</button>
+                <button onclick="bclick('*')" id="button">x</button>
+            </div>
+            <div class="row">
+                <button onclick="bclick(1)" id="button">1</button>
+                <button onclick="bclick(2)" id="button">2</button>
+                <button onclick="bclick(3)" id="button">3</button>
+                <button onclick="bclick('-')" id="button">-</button>
+            </div>
+            <div class="row">
+                <button onclick="bclick('.')" id="button">.</button>
+                <button onclick="bclick(0)" id="button">0</button>
+                <button onclick="bclick('+')" id="button">+</button>
+                <button onclick="bresult()" id="button">=</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+    
+</body>
+</html>
